@@ -24,5 +24,7 @@ class test {
         EnumSingle instance2 = declaredConstructor.newInstance();
         System.out.println(instance1);
         System.out.println(instance2);
+
+//        執行結果：Exception in thread "main" java.lang.IllegalArgumentException: Cannot reflectively create enum objects
     }
 }

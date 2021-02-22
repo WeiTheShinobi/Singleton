@@ -49,6 +49,8 @@ public class LazyMan {
 
         System.out.println(instance.hashCode());
         System.out.println(instance1.hashCode());
+
+//        透過反射，成功取得兩個不同的hashcode
     }
 
 }
